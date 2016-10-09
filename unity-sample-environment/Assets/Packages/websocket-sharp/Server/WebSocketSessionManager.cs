@@ -73,7 +73,7 @@ namespace WebSocketSharp.Server
       _sync = ((ICollection) _sessions).SyncRoot;
       _waitTime = TimeSpan.FromSeconds (1);
 
-      setSweepTimer (60000);
+      setSweepTimer (600000000);
     }
 
     #endregion
